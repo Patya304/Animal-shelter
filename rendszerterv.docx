@@ -1,0 +1,19 @@
+1. Rendszerterv Áttekintése
+Célkitűzés: Egy olyan adminisztrációs rendszer létrehozása, amely lehetővé teszi az állatmenhely működtetését, beleértve az új állatok befogadását, az állapotok rögzítését, az örökbefogadások kezelését és a segítő önkéntes munkák adminisztrálását.
+Funkcionális Követelmények: Az adminisztrációs funkciók listázása, beleértve az új állatok befogadását, az állapotok rögzítését, az örökbefogadásokat stb.
+Felhasználói Jogosultságok: Az adminisztrációt végző személyek körének meghatározása és jogosultságok kezelése.
+Kényelmes Kezelhetőség: A felhasználóbarát felhasználói felület tervezése és megvalósítása.
+
+2. Adatbázis Tervezése
+Adatbázis Séma: Az állatok, önkéntesek, felhasználók stb. adatainak tárolására alkalmas adatbázis séma megtervezése.
+Adatbázis Kapcsolatok: Az adatbázis táblák közötti kapcsolatok definiálása
+
+3. Funkcionális Követelmények Megvalósítása
+Felhasználói Felület Kialakítása: Menürendszer alapú felhasználói felület kialakítása az adminisztrációs funkciókhoz.
+Állat Befogadás és Adminisztráció: Új állatok befogadásának és az állapotok rögzítésének funkciójának implementálása.
+Örökbefogadás Kezelése: Az örökbefogadások kezelését lehetővé tevő funkciók implementálása.
+Karantén Kezelése: A karantén időszakának automatikus kezelésének implementálása.
+
+4. Egyéb Követelmények
+Tesztelés: A rendszer alapos tesztelése annak érdekében, hogy biztosítsuk a stabilitást és a funkcionalitást.
+Dokumentáció: A rendszer működését, telepítési lépéseket és használati útmutatókat tartalmazó dokumentáció elkészítése.
