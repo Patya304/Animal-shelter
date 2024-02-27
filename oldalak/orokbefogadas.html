@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Örökbefogadás Kezelése</title>
+    <title>Állat Befogadás és Adminisztráció</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Örökbefogadás Kezelése</h1>
+        <h1>Állat Befogadás és Adminisztráció</h1>
     </header>
     <nav>
         <ul>
@@ -25,7 +25,39 @@
             <p>Kérjük, olvassa el az örökbefogadás feltételeit alaposan, mielőtt folytatná az örökbefogadási folyamatot.</p>
             <p>-Hamarosan-</p>
         </section>
+        
         <section>
+            <h2>Új Állat Befogadása</h2>
+            <form action="" method="post">
+                <label for="csipszam">Csip száma:</label>
+                <input type="text" id="csipszam" name="csipszam" required><br><br>
+                <label for="ivar">Ivar:</label>
+                <select id="ivar" name="ivar">
+                    <option value="kan">Kan</option>
+                    <option value="szuka">Szuka</option>
+                    <option value="ismeretlen">Ismeretlen</option>
+                </select><br><br>
+                <label for="fajta">Fajta:</label>
+                <input type="text" id="fajta" name="fajta" required><br><br>
+                <label for="kor">Kor:</label>
+                <input type="number" id="kor" name="kor" required><br><br>
+                <label for="viselkedes">Viselkedés:</label>
+                <input type="text" id="viselkedes" name="viselkedes" required><br><br>
+                
+                <input type="submit" value="Befogadás">
+            </form>
+        </section>
+        <section>
+            <h2>Állapotok Kezelése</h2>
+            <form action="" method="post">
+                <label for="allapot">Állapot:</label>
+                <select id="allapot" name="allapot">
+                    <option value="befogadva">Befogadva</option>
+                    <option value="karanten">Karantén</option>
+                    <option value="orokbefogadva">Örökbefogadva</option>
+                </select><br><br>
+                <input type="submit" value="Mentés">
+            </form>
         </section>
     </main>
     <footer>
